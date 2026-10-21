@@ -160,11 +160,8 @@ export function Footer() {
         </div>
 
         <div className="border-ivory/15 text-ivory/70 mt-14 flex flex-wrap items-center justify-between gap-x-8 gap-y-3 border-t pt-6 pb-16 text-[14px] sm:pb-14">
-          <span className="flex flex-col gap-1">
-            <span>© 2026 {CLINIC.name}. All rights reserved.</span>
-            <span className="text-ivory/55 text-[13px]">
-              Website by Stively Technologies · Frontend by Soumya Tidke
-            </span>
+          <span>
+            © 2026 {CLINIC.name}. All rights reserved.
           </span>
           <span className="display text-ivory flex items-center gap-2.5 text-[17px]">
             <Heart className="size-5" aria-hidden="true" />
